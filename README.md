@@ -1,4 +1,4 @@
 # GiftedR
 ---
 
-[Portfolio](https://giftedr.github.io/Portfolio_Page/)
+[Portfolio](https://giftedr.github.io/GiftedR/)
