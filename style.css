@@ -9,7 +9,6 @@
         --banner: url("Assets/BG-Banner_Dark.svg");
     }   
 }
-
 .logo-2{
     aspect-ratio: 1;
     display: inline;
@@ -35,7 +34,7 @@
 }
 
 .bg-main{
-    background-color: var(--bg-main);
+    background: linear-gradient(#330303, #050000) !important;
 }
 
 .btn-giftedr {
@@ -62,4 +61,24 @@
     --bs-btn-active-color: var(--bs-btn-hover-color);
     --bs-btn-active-bg: var(--bs-btn-bg);
     --bs-btn-active-border-color: var(--bs-btn-border-color);
+}
+
+.btn-ccapp {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #a0a;
+    --bs-btn-border-color: #909;
+    --bs-btn-hover-color: #f3f;
+    --bs-btn-hover-bg: #808;
+    --bs-btn-hover-border-color: #707;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: var(--bs-btn-bg);
+    --bs-btn-active-border-color: var(--bs-btn-border-color);
+}
+
+.design-bg{
+    aspect-ratio: 1;
+    background-color: #5558;
+    border: solid 1px black;
+    border-radius: var(--bs-border-radius);
 }
