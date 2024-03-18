@@ -1,0 +1,65 @@
+:root{
+    --text: #000;
+    --banner: url("Assets/BG-Banner.svg");
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --text: #fff;
+        --banner: url("Assets/BG-Banner_Dark.svg");
+    }   
+}
+
+.logo-2{
+    aspect-ratio: 1;
+    display: inline;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hide-link{
+    color: var(--text);
+}
+.hide-link:visited{
+    color: var(--text);
+}
+
+.u-hover:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    background-image: var(--banner);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-main{
+    background-color: var(--bg-main);
+}
+
+.btn-giftedr {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #a00;
+    --bs-btn-border-color: #900;
+    --bs-btn-hover-color: #ff6;
+    --bs-btn-hover-bg: #800;
+    --bs-btn-hover-border-color: #700;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: var(--bs-btn-bg);
+    --bs-btn-active-border-color: var(--bs-btn-border-color);
+}
+
+.btn-gavin {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #0a0;
+    --bs-btn-border-color: #090;
+    --bs-btn-hover-color: #3f3;
+    --bs-btn-hover-bg: #080;
+    --bs-btn-hover-border-color: #070;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: var(--bs-btn-bg);
+    --bs-btn-active-border-color: var(--bs-btn-border-color);
+}
